@@ -4,8 +4,8 @@ A web design practical project: a calculator tool for AKTU B.Tech students to co
 
 ## Team Members
 
-- [Name 1] — Roll No. [xxxx]
-- [Name 2] — Roll No. [xxxx]
+- Saksham Kaushik
+- Saksham Mishra
 
 ## Project Status
 
