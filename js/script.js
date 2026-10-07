@@ -1,8 +1,3 @@
-/* ============================================================
-   AKTU SGPA / YGPA / CGPA Calculator
-   Basic–intermediate JavaScript (easy to read and explain)
-   ============================================================ */
-
 /* ---------- 1. Get elements from the page ---------- */
 var sgpaForm = document.getElementById('sgpa-form');
 var ygpaForm = document.getElementById('ygpa-form');
