@@ -107,8 +107,6 @@ No `package.json` or `node_modules` — zero external dependencies.
 2. Open `index.html` in any modern browser.
 3. No server, install step, or build process required.
 
-For a live link, any static host works directly: GitHub Pages, Netlify, or Vercel.
-
 ---
 
 ## Known Limitations
