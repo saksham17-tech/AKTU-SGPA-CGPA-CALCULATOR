@@ -14,14 +14,14 @@
         <a class="brand" href="#hero-section">
             <span class="brand-mark" aria-hidden="true">SG</span>
             <span>
-                <strong>SGPA Calculator</strong>
-                <small>AKTU B.Tech</small>
+                <strong>SGPA,YGPA & CGPA Calculator</strong>
+                <small>Designed particularly for AKTU B.Tech students</small>
             </span>
         </a>
         <nav class="site-nav">
             <ul>
                 <li><a href="#sgpa-section">SGPA</a></li>
-                <li><a href="#ygpa-section">YGPA</a></li>
+                <li><a href="#ygpa-section">YGPA / CGPA</a></li>
                 <li><a href="#formula-section">Formula</a></li>
                 <li><a href="#faq-section">FAQ</a></li>
             </ul>
@@ -32,14 +32,38 @@
 
         <!-- ===================== HERO SECTION ===================== -->
         <section class="hero section-shell" id="hero-section">
-            <h2>Calculate Your SGPA &amp; YGPA Instantly</h2>
-            <p>
-                A free online calculator designed for AKTU B.Tech. students
-                featuring auto-save and accurate grade calculations.
-            </p>
-            <div class="hero-actions">
-                <a href="#sgpa-section">Calculate SGPA</a>
-                <a href="#ygpa-section">Calculate YGPA</a>
+            <div class="hero-copy">
+                <h2>Calculate Your SGPA &amp; YGPA Instantly</h2>
+                <p>
+                    A free online calculator designed for AKTU B.Tech. students
+                    featuring auto-save and accurate grade calculations.
+                </p>
+                <div class="hero-actions">
+                    <a href="#sgpa-section">Calculate SGPA</a>
+                    <a href="#ygpa-section">Calculate YGPA</a>
+                </div>
+            </div>
+            <div class="hero-visual" aria-hidden="true">
+                <svg viewBox="0 0 280 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <!-- Soft card background -->
+                    <rect x="20" y="16" width="240" height="168" rx="16" fill="#eef0fb" stroke="#c5cceb" stroke-width="1.5"/>
+                    <!-- Chart bars -->
+                    <rect x="48" y="120" width="28" height="40" rx="4" fill="#3b4bb8" opacity="0.85"/>
+                    <rect x="88" y="96" width="28" height="64" rx="4" fill="#3b4bb8" opacity="0.7"/>
+                    <rect x="128" y="72" width="28" height="88" rx="4" fill="#3b4bb8"/>
+                    <rect x="168" y="88" width="28" height="72" rx="4" fill="#3b4bb8" opacity="0.75"/>
+                    <rect x="208" y="56" width="28" height="104" rx="4" fill="#3b4bb8" opacity="0.9"/>
+                    <!-- Trend line -->
+                    <path d="M62 128 L102 104 L142 80 L182 96 L222 64" stroke="#24307a" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+                    <circle cx="62" cy="128" r="4" fill="#24307a"/>
+                    <circle cx="102" cy="104" r="4" fill="#24307a"/>
+                    <circle cx="142" cy="80" r="4" fill="#24307a"/>
+                    <circle cx="182" cy="96" r="4" fill="#24307a"/>
+                    <circle cx="222" cy="64" r="4" fill="#24307a"/>
+                    <!-- Small badge -->
+                    <rect x="180" y="28" width="56" height="22" rx="11" fill="#3b4bb8"/>
+                    <text x="208" y="43" text-anchor="middle" fill="white" font-size="11" font-weight="600" font-family="system-ui,sans-serif">CGPA</text>
+                </svg>
             </div>
         </section>
 
@@ -48,18 +72,44 @@
             <h2>Why Use This Calculator</h2>
             <ul class="features-list">
                 <li>
+                    <span class="feature-icon" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M9 11l3 3L22 4"/>
+                            <path d="M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11"/>
+                        </svg>
+                    </span>
                     <h3>Accurate Calculations</h3>
                     <p>Based on the official examination ordinance grading scale.</p>
                 </li>
                 <li>
+                    <span class="feature-icon" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M19 21H5a2 2 0 01-2-2V5a2 2 0 012-2h11l5 5v11a2 2 0 01-2 2z"/>
+                            <polyline points="17 21 17 13 7 13 7 21"/>
+                            <polyline points="7 3 7 8 15 8"/>
+                        </svg>
+                    </span>
                     <h3>Auto-Save</h3>
                     <p>Your entered data is saved per semester automatically so you don't lose progress.</p>
                 </li>
                 <li>
-                    <h3>SGPA &amp; YGPA</h3>
-                    <p>Calculate both semester-wise and yearly grade point averages.</p>
+                    <span class="feature-icon" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                            <line x1="18" y1="20" x2="18" y2="10"/>
+                            <line x1="12" y1="20" x2="12" y2="4"/>
+                            <line x1="6" y1="20" x2="6" y2="14"/>
+                        </svg>
+                    </span>
+                    <h3>SGPA, YGPA &amp; CGPA</h3>
+                    <p>Calculate semester, yearly, and overall cumulative grade point averages.</p>
                 </li>
                 <li>
+                    <span class="feature-icon" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="5" y="2" width="14" height="20" rx="2" ry="2"/>
+                            <line x1="12" y1="18" x2="12.01" y2="18"/>
+                        </svg>
+                    </span>
                     <h3>Mobile Friendly</h3>
                     <p>Works smoothly on any device, anywhere.</p>
                 </li>
@@ -178,29 +228,33 @@
             </div>
         </section>
 
-        <!-- ===================== YGPA CALCULATOR SECTION ===================== -->
+        <!-- ===================== YGPA & CGPA SECTION ===================== -->
         <section class="calculator-section calculator-alt section-shell" id="ygpa-section">
-            <h2>YGPA Calculator</h2>
-            <p>Enter both semester SGPAs and their total credits to calculate your Yearly Grade Point Average.</p>
+            <h2>YGPA &amp; Overall CGPA</h2>
+            <p>Calculate your Yearly Grade Point Average for any academic year, or your cumulative CGPA across all completed semesters.</p>
 
+            <!-- YGPA Form -->
             <form id="ygpa-form">
-                <fieldset>
-                    <legend>Semester 1</legend>
-                    <label for="sem1-sgpa">SGPA</label>
-                    <input type="number" id="sem1-sgpa" name="sem1-sgpa" step="0.01" min="0" max="10">
+                <h3 class="form-subtitle">YGPA (One Academic Year)</h3>
+                <div class="semester-grid">
+                    <fieldset>
+                        <legend>Semester 1</legend>
+                        <label for="sem1-sgpa">SGPA</label>
+                        <input type="number" id="sem1-sgpa" name="sem1-sgpa" step="0.01" min="0" max="10" placeholder="e.g. 8.40">
 
-                    <label for="sem1-credits">Total Credits</label>
-                    <input type="number" id="sem1-credits" name="sem1-credits" min="0">
-                </fieldset>
+                        <label for="sem1-credits">Total Credits</label>
+                        <input type="number" id="sem1-credits" name="sem1-credits" min="0" placeholder="e.g. 22">
+                    </fieldset>
 
-                <fieldset>
-                    <legend>Semester 2</legend>
-                    <label for="sem2-sgpa">SGPA</label>
-                    <input type="number" id="sem2-sgpa" name="sem2-sgpa" step="0.01" min="0" max="10">
+                    <fieldset>
+                        <legend>Semester 2</legend>
+                        <label for="sem2-sgpa">SGPA</label>
+                        <input type="number" id="sem2-sgpa" name="sem2-sgpa" step="0.01" min="0" max="10" placeholder="e.g. 8.10">
 
-                    <label for="sem2-credits">Total Credits</label>
-                    <input type="number" id="sem2-credits" name="sem2-credits" min="0">
-                </fieldset>
+                        <label for="sem2-credits">Total Credits</label>
+                        <input type="number" id="sem2-credits" name="sem2-credits" min="0" placeholder="e.g. 24">
+                    </fieldset>
+                </div>
 
                 <p id="ygpa-error" class="error-message" role="alert"></p>
 
@@ -213,6 +267,78 @@
             <div class="result-box" id="ygpa-result" aria-live="polite">
                 <h3>Your YGPA</h3>
                 <p id="ygpa-value">--</p>
+            </div>
+
+            <!-- Overall CGPA Form -->
+            <form id="cgpa-form" class="cgpa-form">
+                <h3 class="form-subtitle">Overall CGPA (All Semesters)</h3>
+                <p class="field-hint">Enter SGPA and total credits for each completed semester. Leave blank any semester you haven't finished yet — only filled rows are used.</p>
+
+                <div class="table-wrap">
+                    <table id="cgpa-table">
+                        <thead>
+                            <tr>
+                                <th scope="col">Semester</th>
+                                <th scope="col">SGPA</th>
+                                <th scope="col">Total Credits</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Semester 1</td>
+                                <td><label for="cgpa-s1-sgpa" class="sr-only">Semester 1 SGPA</label><input type="number" id="cgpa-s1-sgpa" name="cgpa-s1-sgpa" class="cgpa-sgpa" step="0.01" min="0" max="10" placeholder="0.00 – 10.00"></td>
+                                <td><label for="cgpa-s1-credits" class="sr-only">Semester 1 credits</label><input type="number" id="cgpa-s1-credits" name="cgpa-s1-credits" class="cgpa-credits" min="0" placeholder="e.g. 22"></td>
+                            </tr>
+                            <tr>
+                                <td>Semester 2</td>
+                                <td><label for="cgpa-s2-sgpa" class="sr-only">Semester 2 SGPA</label><input type="number" id="cgpa-s2-sgpa" name="cgpa-s2-sgpa" class="cgpa-sgpa" step="0.01" min="0" max="10" placeholder="0.00 – 10.00"></td>
+                                <td><label for="cgpa-s2-credits" class="sr-only">Semester 2 credits</label><input type="number" id="cgpa-s2-credits" name="cgpa-s2-credits" class="cgpa-credits" min="0" placeholder="e.g. 24"></td>
+                            </tr>
+                            <tr>
+                                <td>Semester 3</td>
+                                <td><label for="cgpa-s3-sgpa" class="sr-only">Semester 3 SGPA</label><input type="number" id="cgpa-s3-sgpa" name="cgpa-s3-sgpa" class="cgpa-sgpa" step="0.01" min="0" max="10" placeholder="0.00 – 10.00"></td>
+                                <td><label for="cgpa-s3-credits" class="sr-only">Semester 3 credits</label><input type="number" id="cgpa-s3-credits" name="cgpa-s3-credits" class="cgpa-credits" min="0" placeholder="e.g. 24"></td>
+                            </tr>
+                            <tr>
+                                <td>Semester 4</td>
+                                <td><label for="cgpa-s4-sgpa" class="sr-only">Semester 4 SGPA</label><input type="number" id="cgpa-s4-sgpa" name="cgpa-s4-sgpa" class="cgpa-sgpa" step="0.01" min="0" max="10" placeholder="0.00 – 10.00"></td>
+                                <td><label for="cgpa-s4-credits" class="sr-only">Semester 4 credits</label><input type="number" id="cgpa-s4-credits" name="cgpa-s4-credits" class="cgpa-credits" min="0" placeholder="e.g. 24"></td>
+                            </tr>
+                            <tr>
+                                <td>Semester 5</td>
+                                <td><label for="cgpa-s5-sgpa" class="sr-only">Semester 5 SGPA</label><input type="number" id="cgpa-s5-sgpa" name="cgpa-s5-sgpa" class="cgpa-sgpa" step="0.01" min="0" max="10" placeholder="0.00 – 10.00"></td>
+                                <td><label for="cgpa-s5-credits" class="sr-only">Semester 5 credits</label><input type="number" id="cgpa-s5-credits" name="cgpa-s5-credits" class="cgpa-credits" min="0" placeholder="e.g. 24"></td>
+                            </tr>
+                            <tr>
+                                <td>Semester 6</td>
+                                <td><label for="cgpa-s6-sgpa" class="sr-only">Semester 6 SGPA</label><input type="number" id="cgpa-s6-sgpa" name="cgpa-s6-sgpa" class="cgpa-sgpa" step="0.01" min="0" max="10" placeholder="0.00 – 10.00"></td>
+                                <td><label for="cgpa-s6-credits" class="sr-only">Semester 6 credits</label><input type="number" id="cgpa-s6-credits" name="cgpa-s6-credits" class="cgpa-credits" min="0" placeholder="e.g. 24"></td>
+                            </tr>
+                            <tr>
+                                <td>Semester 7</td>
+                                <td><label for="cgpa-s7-sgpa" class="sr-only">Semester 7 SGPA</label><input type="number" id="cgpa-s7-sgpa" name="cgpa-s7-sgpa" class="cgpa-sgpa" step="0.01" min="0" max="10" placeholder="0.00 – 10.00"></td>
+                                <td><label for="cgpa-s7-credits" class="sr-only">Semester 7 credits</label><input type="number" id="cgpa-s7-credits" name="cgpa-s7-credits" class="cgpa-credits" min="0" placeholder="e.g. 20"></td>
+                            </tr>
+                            <tr>
+                                <td>Semester 8</td>
+                                <td><label for="cgpa-s8-sgpa" class="sr-only">Semester 8 SGPA</label><input type="number" id="cgpa-s8-sgpa" name="cgpa-s8-sgpa" class="cgpa-sgpa" step="0.01" min="0" max="10" placeholder="0.00 – 10.00"></td>
+                                <td><label for="cgpa-s8-credits" class="sr-only">Semester 8 credits</label><input type="number" id="cgpa-s8-credits" name="cgpa-s8-credits" class="cgpa-credits" min="0" placeholder="e.g. 20"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <p id="cgpa-error" class="error-message" role="alert"></p>
+
+                <div class="form-actions">
+                    <button type="button" id="calculate-cgpa-btn">Calculate CGPA</button>
+                    <button type="reset" id="reset-cgpa-btn">Reset</button>
+                </div>
+            </form>
+
+            <div class="result-box" id="cgpa-result" aria-live="polite">
+                <h3>Your CGPA</h3>
+                <p id="cgpa-value">--</p>
             </div>
         </section>
 
@@ -229,6 +355,11 @@
             <article>
                 <h3>YGPA Formula</h3>
                 <p>YGPA = (SGPA&#8321; &times; Credits&#8321; + SGPA&#8322; &times; Credits&#8322;) / (Credits&#8321; + Credits&#8322;)</p>
+            </article>
+
+            <article>
+                <h3>CGPA Formula</h3>
+                <p>CGPA = &Sigma;(SGPA<sub>i</sub> &times; Credits<sub>i</sub>) / &Sigma;(Credits<sub>i</sub>) across all completed semesters.</p>
             </article>
 
             <article>
@@ -270,6 +401,11 @@
             </article>
 
             <article>
+                <h3>What is CGPA?</h3>
+                <p>CGPA (Cumulative Grade Point Average) is the overall weighted average of all completed semesters across your degree.</p>
+            </article>
+
+            <article>
                 <h3>Does this calculator save my data?</h3>
                 <p>Yes. Each semester's subjects are auto-saved separately in your browser, so switching semesters never overwrites another semester's data, and your entries are still there even after closing the browser or returning much later.</p>
             </article>
@@ -294,7 +430,7 @@
             <ul>
                 <li><a href="#hero-section">Home</a></li>
                 <li><a href="#sgpa-section">SGPA</a></li>
-                <li><a href="#ygpa-section">YGPA</a></li>
+                <li><a href="#ygpa-section">YGPA / CGPA</a></li>
                 <li><a href="#faq-section">FAQ</a></li>
             </ul>
         </nav>
