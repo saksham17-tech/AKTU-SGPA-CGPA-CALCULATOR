@@ -8,7 +8,6 @@ Each semester comes pre-filled with its official subject list (name, type, and c
 
 - Saksham Kaushik
 - Saksham Mishra
-
 ---
 
 ## Features
