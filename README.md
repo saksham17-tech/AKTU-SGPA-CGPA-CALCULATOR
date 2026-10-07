@@ -1,4 +1,4 @@
-# SGPA Calculator — AKTU B.Tech
+# SGPA, YGPA & CGPA Calculator — AKTU B.Tech
 
 A fully client-side calculator for AKTU B.Tech students to compute their **SGPA** (Semester Grade Point Average) and **YGPA** (Yearly Grade Point Average). Built as a Web Designing Lab practical project using vanilla HTML, CSS, and JavaScript — no frameworks, no build step, no dependencies.
 
