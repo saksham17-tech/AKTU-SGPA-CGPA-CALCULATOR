@@ -4,6 +4,11 @@ A fully client-side calculator for AKTU B.Tech students to compute their **SGPA*
 
 Each semester comes pre-filled with its official subject list (name, type, and credits) based on the AKTU curriculum structure, with every field fully editable. Students enter internal and external marks per subject; the calculator validates the entries, converts them to grade points using the official examination ordinance scale, and computes a weighted SGPA. Data is auto-saved per semester in the browser, so switching semesters never overwrites another one's entries, and nothing is lost even after closing the browser for an extended period.
 
+---
+## Try here: https://aktu-gpa-calculator.netlify.app/
+
+
+
 ## Team Members
 
 - Saksham Kaushik
